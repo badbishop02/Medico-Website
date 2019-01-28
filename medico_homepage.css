@@ -67,8 +67,9 @@ ul {
   }
   .services_txt {
     font-size: 18px;
-    margin-left: 10%;
-    font-weight: 500;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-weight: 450;
   }
   #colored {
     color: #161657;
@@ -129,21 +130,23 @@ ul {
     height: inherit;
     color: #161657;
   }
-  #about_section_one {
+  #about_section {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  #about_section_one_header {
+  #about_section_header {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin: 0 auto 0 auto;
   }
   .bold {
     font-weight: 700;
   }
   #about_btn {
     width: 33.33%;
+    margin: 0 auto 0 auto;
   }
   #bookings_form {
     display: flex;
@@ -195,7 +198,7 @@ ul {
     margin: 1%;
     border-radius: 5px;
     background-color: #f2f2f2;
-    box-shadow: 3px 3px 5px grey;
+    box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.698);
     justify-content: left;
     align-items: center;
   }
