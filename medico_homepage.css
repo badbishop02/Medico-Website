@@ -176,6 +176,8 @@ ul {
   }
   input:focus {
     background-color: #f9f9f9;
+    color: #161657;
+    border: none;
   }
   .service_cards_container  {
     display: flex;
@@ -193,6 +195,7 @@ ul {
     margin: 1%;
     border-radius: 5px;
     background-color: #f2f2f2;
+    box-shadow: 3px 3px 5px grey;
     justify-content: left;
     align-items: center;
   }
