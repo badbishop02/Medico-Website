@@ -94,14 +94,15 @@ ul {
     flex-direction: row;
     align-items: center;
     width: 80%;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    font-weight: 500;
+    height: 50px;
+    margin: 50px auto 50px auto;
     background-color: #f2f2f2;
   }
-  #about_bar_txt {
-    font-size: 42px;
+  .about_bar_txt {
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+    color: #161657;
   }
   #about {
     margin: 3px 0 3px 0;
@@ -115,7 +116,7 @@ ul {
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 200px;
+    height: 250px;
     margin: auto;
     margin-top: 20px;
   }
@@ -123,9 +124,26 @@ ul {
     display: flex;
     flex-direction: column;
     width: 40%;
-    background-color: #161657;
+    padding: 10px;
     left: 0;
     height: inherit;
+    color: #161657;
+  }
+  #about_section_one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #about_section_one_header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  #about_btn {
+    width: 33.33%;
   }
   #bookings_form {
     display: flex;
@@ -155,6 +173,9 @@ ul {
     border: none;
     padding: 1%;
     border-radius: 5px;
+  }
+  input:focus {
+    background-color: #f9f9f9;
   }
   .service_cards_container  {
     display: flex;
@@ -245,7 +266,7 @@ ul {
     font-size: 12px;
     font-weight: 300px;
   }
-  .article_intro {
+  .article_intro, #about_info {
     font-size: 12px;
     top: 0;
   }
