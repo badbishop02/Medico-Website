@@ -296,13 +296,18 @@ ul {
     text-align: center;
   }
   #email_input[type="text"] {
-    background-color: #ffffff;
+    color: #f9f9f9;
+    background-color: #0e0e3f;
+    border-radius: 5px;
     height: 40px;
-    border-style: none;
+    padding: 0 0 0 10px;
+    border: none;
     width: 80%;
   }
   #email_input[type="text"]:hover, #email_input[type="text"]:focus {
     color: #0e0e3f;
+    background-color: #f9f9f9;
+    border-radius: 5px;
     width: 100%;
     outline: none;
     font-weight: 600;
