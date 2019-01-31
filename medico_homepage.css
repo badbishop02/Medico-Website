@@ -71,6 +71,10 @@ body {
     margin: 3px 0 3px 0;
     left: 0;
   }
+  .about_icons {
+    height: 30px;
+    width: 30px;
+  }
   #book_apt {
     margin-left: auto;
   }
@@ -99,8 +103,9 @@ body {
   #about_section_header {
     display: flex;
     flex-direction: row;
+    align-self: center;
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: auto;
   }
   .bold, .service {
     font-weight: 700;
@@ -162,8 +167,8 @@ body {
     height: 95%;
     margin: 1%;
     border-radius: 5px;
-    background-color: #f2f2f2;
-    box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.698);
+    background-color: #ffffff;
+    box-shadow: 3px 3px 8px rgb(200, 200, 200);
   }
   .service_cards_icons {
     height: 50px;
