@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -5,52 +9,11 @@
     top: 25%;
     left: 10%;
 }
-nav {
-    background-color: #f9f9f9;
-    height: 50px;
-    margin-bottom: -50px;
-}
-ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
-    height: 50px;
-    top: 0;
-    margin: 0;
-    color: #161657;
-    font-weight: 500;
-  }
-  li {
-    margin: 0 20px 0 20px;
-    padding: 2px;
-  }
-  #logo-img {
-    width: 15%;
-    height: 15%;
-  }
-  #logo {
-    margin-right: auto;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-  }
-  #top_right_nav {
-    margin-left: auto;
-  }
-  .page_btns {
-    background-color: blueviolet;
-    color: #f9f9f9;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-  }
 #bkg_img_container {
     top: 0;
     position: relative;
     width: 100%;
-    height: 550px;
+    height: 600px;
 }
 #main_img {
     width: inherit;
@@ -81,7 +44,6 @@ ul {
   }
   .service_img {
     margin: auto;
-    background-color: #f2f2f2;
     margin-top: 20px;
     width: 80%;
     height: 200px;
@@ -113,7 +75,6 @@ ul {
     margin-left: auto;
   }
   #about_and_form {
-    background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -141,7 +102,7 @@ ul {
     width: 100%;
     margin: 0 auto 0 auto;
   }
-  .bold {
+  .bold, .service {
     font-weight: 700;
   }
   #about_btn {
@@ -193,22 +154,30 @@ ul {
     margin-right: auto;
   }
   .service_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
     width: 33.33%;
     height: 95%;
     margin: 1%;
     border-radius: 5px;
     background-color: #f2f2f2;
     box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.698);
-    justify-content: left;
-    align-items: center;
   }
   .service_cards_icons {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
   }
-  .service {
+  .service, .service_cards_icons {
+   align-self: center;
+   margin: auto;
   }
   .service_description{
+    margin-top: 0;
+    padding: 0 20px 0 20px;
+    text-align: justify;
   }
   #Ads {
     margin-top: 50px;
@@ -224,7 +193,6 @@ ul {
   }
   .articles {
     margin: 20px auto 20px auto;
-    background-color: #f2f2f2;
     width: 80%;
     height: 350px;
     padding: 5px 0 5px 0;
@@ -272,73 +240,7 @@ ul {
     font-size: 12px;
     font-weight: 300px;
   }
-  .article_intro, #about_info {
+  .article_intro, #about_info, .service_description {
     font-size: 12px;
     top: 0;
-  }
-  footer {
-    background: #161657;
-    width: 100%;
-    height: 100%;
-  }
-  #footer-container {
-    width: 80%;
-    height: 150px;
-    align-items: center;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    justify-content: center;
-    display: flex;
-    color: #ffffff;
-  }
-  .footer-column1 p {
-    text-align: center;
-  }
-  #email_input[type="text"] {
-    color: #f9f9f9;
-    background-color: #0e0e3f;
-    border-radius: 5px;
-    height: 40px;
-    padding: 0 0 0 10px;
-    border: none;
-    width: 80%;
-  }
-  #email_input[type="text"]:hover, #email_input[type="text"]:focus {
-    color: #0e0e3f;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    width: 100%;
-    outline: none;
-    font-weight: 600;
-  }
-  .footer-column1, .footer-links {
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  padding: 3%;
-  }
-  .footer-links a {
-  text-align: left;
-  text-decoration: none;
-  color: #ffffff;
-  }
-  .footer-links a:hover {
-    color: #fb9713;
-  }
-  img {
-  width: 40px;
-  height: 40px;
-  }
-  #copyright {
-    text-align: center;
-    justify-content: center;
-    height: 30px;
-    padding-top: 15px;
-    margin: auto;
-    bottom: 0;
-    background-color: #0e0e3f;
-    color: white;
-    font-size: 14px;
   }
